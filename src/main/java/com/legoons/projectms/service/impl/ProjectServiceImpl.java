@@ -88,7 +88,7 @@ public class ProjectServiceImpl implements ProjectService {
         log.debug("BEFORE column is {} and direction is {}", column, direction);
 
         if (StringUtils.isEmpty(column)) {
-            column = "ticketNumber";
+            column = "projectName";
         }
         if (StringUtils.isEmpty(direction)) {
             direction = "ASC";

@@ -17,9 +17,9 @@ public interface ProjectRepository extends CrudRepository<Project, Long>, Queryd
 
         BooleanBuilder predicate = new BooleanBuilder();
 
-        if (request.getBusinessUnitId() != null) {
-            predicate.and(QProject.project.businessUnit.id.in(request.getBusinessUnitId()));
-        }
+//        if (request.getBusinessUnitId() != null) {
+//            predicate.and(QProject.project.businessUnit.id.in(request.getBusinessUnitId()));
+//        }
 
         return predicate;
     }

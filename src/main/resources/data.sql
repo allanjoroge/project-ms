@@ -8,15 +8,15 @@ INSERT INTO client (id, name) VALUES (2, 'MLPS');
 INSERT INTO client (id, name) VALUES (3, 'DET');
 INSERT INTO client (id, name) VALUES (4, 'DEN');
 
-INSERT INTO project_status (id, name) VALUES (1, 'STL');
-INSERT INTO project_status (id, name) VALUES (2, 'MLPS');
-INSERT INTO project_status (id, name) VALUES (3, 'DET');
-INSERT INTO project_status (id, name) VALUES (4, 'DEN');
+INSERT INTO prj_status (id, name) VALUES (1, 'STL');
+INSERT INTO prj_status (id, name) VALUES (2, 'MLPS');
+INSERT INTO prj_status (id, name) VALUES (3, 'DET');
+INSERT INTO prj_status (id, name) VALUES (4, 'DEN');
 
-INSERT INTO project_type (id, name) VALUES (1, 'STL');
-INSERT INTO project_type (id, name) VALUES (2, 'MLPS');
-INSERT INTO project_type (id, name) VALUES (3, 'DET');
-INSERT INTO project_type (id, name) VALUES (4, 'DEN');
+INSERT INTO prj_type (id, name) VALUES (1, 'STL');
+INSERT INTO prj_type (id, name) VALUES (2, 'MLPS');
+INSERT INTO prj_type (id, name) VALUES (3, 'DET');
+INSERT INTO prj_type (id, name) VALUES (4, 'DEN');
 
 INSERT INTO project (id, project_name, business_unit_id, project_type_id, project_status_id, client_id, start_date, end_date) VALUES(1, 'Alpha', 2, 3, 3, 2, parseDateTime('2020-03-01', 'yyyy-MM-dd'), parseDateTime('2020-11-30', 'yyyy-MM-dd'));
 INSERT INTO project (id, project_name, business_unit_id, project_type_id, project_status_id, client_id, start_date, end_date) VALUES(2, 'Subin', 2, 3, 2, 3, parseDateTime('2020-03-01', 'yyyy-MM-dd'), parseDateTime('2020-11-30', 'yyyy-MM-dd'));
